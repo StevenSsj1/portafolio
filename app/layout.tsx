@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Lenin Llano | Portafolio PS5",
     description: "Portafolio profesional inspirado en la interfaz de PlayStation 5, mostrando proyectos de desarrollo web y aplicaciones.",
-    url: "https://StevenSsj1.github.io/Portafolio",
+    url: "https://StevenSsj1.github.io/portafolio",
     siteName: "Portafolio PS5",
     images: [
       {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Lenin Llano | Portafolio PS5",
     description: "Portafolio profesional inspirado en la interfaz de PlayStation 5, mostrando proyectos de desarrollo web y aplicaciones.",
-    images: ["/og-image.jpg"],
+    images: ["portafolio/og-grap.jpg"],
     creator: "@stevenssj1",
   },
   robots: {
