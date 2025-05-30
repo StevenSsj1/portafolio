@@ -1,0 +1,117 @@
+import type { Project } from "@/types/project"
+
+export const projects: Project[] = [
+  {
+    id: "1",
+    title: "Clasificador de Precios Anómalos en Supermercados",
+    description:
+      "Desarrollé un sistema avanzado para la detección y clasificación automática de precios atípicos en productos de supermercados ecuatorianos como Coral, SuperMaxi, Megamaxi y Gran AKI. El proyecto abarca la extracción masiva de datos mediante técnicas de web scraping, análisis de series temporales de precios históricos y la aplicación de modelos de machine learning para identificar anomalías. Incluye visualizaciones interactivas que permiten a los usuarios explorar tendencias y detectar irregularidades, así como la optimización de consultas con PySpark para manejar grandes volúmenes de datos. Este sistema es una herramienta de inteligencia de negocios que ayuda a los supermercados a tomar decisiones informadas y mejorar la competitividad en el mercado.",
+    category: "Ciencia de Datos",
+    duration: "1 mes",
+    technologies: ["PANDAS", "PYTHON", "PYSPARK", "EMBEDDINGS", "WEBSCRAPING"],
+    features: [
+      "Extracción de datos de precios de productos",
+      "Análisis de precios históricos",
+      "Clasificación de precios anómalos",
+      "Visualización interactiva de datos",
+      "Optimización de consultas con PySpark",
+      "Inteligencia de Negocios",
+    ],
+    thumbnail: "/portafolio/ClasificadorPrecios.webp",
+    backgroundImage: "/portafolio/thumbnailClasificador.webp",
+    images: [
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+    ],
+    githubUrl: "https://github.com/StevenSsj1/clasificador-precios-supermercado",
+    altBackgroundImage: "Imagen de fondo del proyecto Clasificador de Precios Anómalos en Supermercados",
+    altThumbnail: "Miniatura del proyecto Clasificador de Precios Anómalos en Supermercados",
+  },
+  {
+    id: "2",
+    title: "Sky2Travel - Asistente de Viajes",
+    description:
+      "Desarrollé un asistente virtual inteligente que facilita la búsqueda de vuelos y la planificación de viajes mediante procesamiento de lenguaje natural. El sistema integra la API de Google Gemini y modelos de IA generativa para comprender las necesidades del usuario, sugerir itinerarios personalizados y responder preguntas en tiempo real. Además, genera respuestas en formato de audio utilizando gTTS, mejorando la accesibilidad y experiencia del usuario. La aplicación cuenta con una interfaz intuitiva, validación de datos y la integración de múltiples APIs externas para ofrecer información actualizada sobre vuelos, destinos y recomendaciones de viaje.",
+    category: "IA",
+    duration: "1 mes",
+    technologies: ["PYTHON", "GEMINI", "GENAI", "GEMINI API", "gTTS"],
+    features: [
+      "Procesamiento del Lenguaje Natural",
+      "Generación de Respuestas",
+      "Integración con Google Gemini",
+      "Generación de Audio",
+      "Interfaz de Usuario",
+      "Manejo de Datos y Validación",
+      "Integración de APIs Externas",
+    ],
+    thumbnail: "/portafolio/Sky2Travel.webp",
+    backgroundImage: "/portafolio/Sky2TravelThumbnail.webp",
+    images: [
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+    ],
+    githubUrl: "https://github.com/StevenSsj1/Sky2Travel---Asistente-de-Viajes",
+    altBackgroundImage: "Imagen de fondo del proyecto Sky2Travel se ve un mujer y el titulo del proyecto",
+    altThumbnail: "Miniatura del proyecto Sky2Travel - Asistente de Viajes",
+  },
+  {
+    id: "3",
+    title: "CumpleGolMessiCR7",
+    description:
+      "Creé una aplicación web interactiva para fanáticos de Lionel Messi y Cristiano Ronaldo, donde los usuarios pueden ingresar su fecha de cumpleaños y descubrir si alguna de estas leyendas del fútbol marcó un gol ese día. El proyecto utiliza web scraping para recopilar datos históricos de goles, implementa un diseño completamente responsivo y optimizado para SEO, y emplea técnicas de carga eficiente de imágenes. Además, integra APIs externas y utiliza bucles inteligentes (\"magic loops\") para procesar grandes volúmenes de datos, brindando una experiencia divertida y educativa para los aficionados al fútbol.",
+    category: "FRONTEND",
+    duration: "1 mes",
+    technologies: ["ASTRO", "PREACT", "TAILWIND", "TYPESCRIPT"],
+    features: [
+      "Gol de ambos",
+      "Diseño responsivo",
+      "Optimización SEO",
+      "Carga optimizada de imágenes",
+      "Diseño completamente responsive",
+      "Carga optimizada de imágenes",
+      "Web Scraping de datos de Messi y Cristiano Ronaldo",
+      "Integración de APIs Externas",
+      "MAGIC LOOPS"
+    ],
+    thumbnail: "/portafolio/CumpleGoalThumbnail.webp",
+    backgroundImage: "/portafolio/CumpleGoal.webp",
+    images: [
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+    ],
+    githubUrl: "https://github.com/StevenSsj1/CumpleGolMessiCR7",
+    altBackgroundImage: "Imagen de fondo del proyecto CumpleGolMessiCR7 donde se ven a Messi y CR7",
+    altThumbnail: "Miniatura del proyecto CumpleGolMessiCR7 donde se ven a Messi y CR7 con un balón de fútbol y un calendario",
+  },
+  {
+    id: "4",
+    title: "Dataton",
+    description:
+      "Desarrollé una API REST robusta que proporciona estadísticas detalladas sobre delitos en Ecuador, facilitando el análisis y visualización de datos delictivos a nivel nacional. El backend, construido con FastAPI, permite consultas eficientes y seguras, mientras que la integración con bibliotecas como Pandas, Matplotlib y Seaborn posibilita la generación de gráficos y reportes personalizados. El sistema está diseñado para ser una herramienta útil tanto para investigadores como para entidades gubernamentales, permitiendo identificar patrones, tendencias y áreas de riesgo a través de visualizaciones interactivas y análisis exploratorio de datos.",
+    category: "Ciencia de Datos",
+    duration: "2 meses",
+    technologies: ["PYTHON","SEABORN", "PANDAS", "FASTAPI"],
+    features: [
+      "API REST completa",
+      "Análisis de datos",
+      "Visualización de datos",
+      "Integración con FastAPI",
+      "Integración con Matplotlib",
+      "Integración con Seaborn",
+      "Integración con Pandas",
+    ],
+    thumbnail: "/portafolio/Dataton.webp",
+    backgroundImage: "/portafolio/Dataton.webp",
+    images: [
+      "/placeholder.svg?height=600&width=800",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+    ],
+    githubUrl: "https://github.com/StevenSsj1/Dataton",
+    altBackgroundImage: "Imagen de fondo del proyecto Dataton donde se ve un mapa de Ecuador con datos estadísticos",
+    altThumbnail: "Miniatura del proyecto Dataton donde se ve un mapa de Ecuador con datos estadísticos",
+  }
+]
