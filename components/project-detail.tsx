@@ -139,7 +139,7 @@ export function ProjectDetail({ project, onBack }: ProjectDetailProps) {
                   >
                     <div className="w-10 h-10 sm:w-12 sm:h-12 bg-black/30 rounded-full flex items-center justify-center">
                       <Image 
-                        src={`/Portafolio/${tech}.svg`}
+                        src={`/portafolio/${tech}.svg`}
                         alt={`${tech} icon`}
                         width={24}
                         height={24}
