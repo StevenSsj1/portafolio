@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "Portafolio PS5",
     images: [
       {
-        url: "portafolio/og-grap.jpg",
+        url: "portafolio/og_grap.jpg",
         width: 1200,
         height: 630,
         alt: "Portafolio PS5 - Lenin Llano",
