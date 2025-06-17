@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://StevenSsj1.github.io/Portafolio"),
+  metadataBase: new URL("https://StevenSsj1.github.io/portafolio"),
   alternates: {
     canonical: "/",
   },
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Lenin Llano | Portafolio PS5",
     description: "Portafolio profesional inspirado en la interfaz de PlayStation 5, mostrando proyectos de desarrollo web y aplicaciones.",
-    images: ["portafolio/og-grap.jpg"],
+    images: ["portafolio/og_grap.jpg"],
     creator: "@stevenssj1",
   },
   robots: {
