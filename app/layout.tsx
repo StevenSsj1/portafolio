@@ -11,7 +11,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Lenin Llano | Portafolio PS5",
+  title: "Lenin Llano | Portafolio",
   description: "Portafolio profesional inspirado en la interfaz de PlayStation 5, mostrando proyectos de desarrollo web y aplicaciones.",
   keywords: [
     "Lenin Llano",
